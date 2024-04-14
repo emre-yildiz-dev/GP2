@@ -1,28 +1,27 @@
 \contentsline {section}{\numberline {1}Introduction (\textit {min 5000 characters})}{3}{section.0.1}%
-\contentsline {section}{\numberline {2}Realistic Constraints and Conditions}{3}{section.0.2}%
-\contentsline {subsection}{\numberline {2.1}Sustainable Development Goal (\textit {min 1000 characters})}{3}{subsection.0.2.1}%
-\contentsline {subsection}{\numberline {2.2}Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering (\textit {min 1000 characters})}{4}{subsection.0.2.2}%
-\contentsline {subsection}{\numberline {2.3}Legal Consequences (\textit {min 1000 characters})}{4}{subsection.0.2.3}%
-\contentsline {section}{\numberline {3}Literature Analysis (\textit {min 8000 characters})}{5}{section.0.3}%
-\contentsline {subsection}{\numberline {3.1}Features and Requirements of Current Cryptocurrency Education Platforms}{6}{subsection.0.3.1}%
-\contentsline {section}{\numberline {4}Standards to be Used (\textit {min 1000 characters})}{6}{section.0.4}%
-\contentsline {section}{\numberline {5}Approaches, Techniques, and Technologies to be used (\textit {min 6000 characters})}{7}{section.0.5}%
-\contentsline {section}{\numberline {6}Risk Management}{8}{section.0.6}%
-\contentsline {subsection}{\numberline {6.1}WP1: Requirements and Technical Debt}{8}{subsection.0.6.1}%
-\contentsline {subsection}{\numberline {6.2}WP2: Integration and Performance}{9}{subsection.0.6.2}%
-\contentsline {subsection}{\numberline {6.3}WP3: Usability and Browser Compatibility}{9}{subsection.0.6.3}%
-\contentsline {subsection}{\numberline {6.4}WP4: Data Migration and Scalability}{9}{subsection.0.6.4}%
-\contentsline {subsection}{\numberline {6.5}WP5: Test Coverage and Missed Bugs}{9}{subsection.0.6.5}%
-\contentsline {subsection}{\numberline {6.6}WP6: Downtime and Deployment Failures}{9}{subsection.0.6.6}%
-\contentsline {subsection}{\numberline {6.7}Security Risks in Cryptocurrency Systems}{9}{subsection.0.6.7}%
-\contentsline {section}{\numberline {7}Project Schedule and Task Sharing}{10}{section.0.7}%
-\contentsline {subsection}{\numberline {7.1}WP1: System Architecture}{10}{subsection.0.7.1}%
-\contentsline {subsection}{\numberline {7.2}WP2: Backend Development}{10}{subsection.0.7.2}%
-\contentsline {subsection}{\numberline {7.3}WP3: Frontend Development}{10}{subsection.0.7.3}%
-\contentsline {subsection}{\numberline {7.4}WP4: Database Integration}{10}{subsection.0.7.4}%
-\contentsline {subsection}{\numberline {7.5}WP5: Testing \& QA}{10}{subsection.0.7.5}%
-\contentsline {subsection}{\numberline {7.6}WP6: Deployment}{11}{subsection.0.7.6}%
-\contentsline {section}{\numberline {8}System Requirements Analysis}{11}{section.0.8}%
-\contentsline {subsection}{\numberline {8.1}Use Case Model (\textit {min 3000 characters})}{11}{subsection.0.8.1}%
-\contentsline {subsection}{\numberline {8.2}Object Model (\textit {min 3000 characters})}{12}{subsection.0.8.2}%
-\contentsline {section}{\numberline {9}Choose Interdisciplinary Domain of Study}{16}{section.0.9}%
+\contentsline {section}{\numberline {2}Realistic Constraints and Conditions}{4}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Sustainable Development Goal (\textit {min 1000 characters})}{4}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering (\textit {min 1000 characters})}{5}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Legal Consequences (\textit {min 1000 characters})}{5}{subsection.0.2.3}%
+\contentsline {section}{\numberline {3}Literature Analysis (\textit {min 8000 characters})}{6}{section.0.3}%
+\contentsline {subsection}{\numberline {3.1}Features and Requirements of Current Cryptocurrency Education Platforms}{8}{subsection.0.3.1}%
+\contentsline {section}{\numberline {4}Standards to be Used (\textit {min 1000 characters})}{9}{section.0.4}%
+\contentsline {section}{\numberline {5}Approaches, Techniques, and Technologies to be used (\textit {min 6000 characters})}{9}{section.0.5}%
+\contentsline {section}{\numberline {6}Risk Management}{12}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}WP1: Requirements and Technical Debt}{13}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}WP2: Integration and Performance}{13}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}WP3: Usability and Browser Compatibility}{13}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {6.4}WP4: Data Migration and Scalability}{13}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {6.5}WP5: Test Coverage and Missed Bugs}{13}{subsection.0.6.5}%
+\contentsline {subsection}{\numberline {6.6}WP6: Downtime and Deployment Failures}{13}{subsection.0.6.6}%
+\contentsline {subsection}{\numberline {6.7}Security Risks in Cryptocurrency Systems}{14}{subsection.0.6.7}%
+\contentsline {section}{\numberline {7}Project Schedule and Task Sharing}{14}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}WP1: System Architecture}{14}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}WP2: Backend Development}{14}{subsection.0.7.2}%
+\contentsline {subsection}{\numberline {7.3}WP3: Frontend Development}{14}{subsection.0.7.3}%
+\contentsline {subsection}{\numberline {7.4}WP4: Database Integration}{15}{subsection.0.7.4}%
+\contentsline {subsection}{\numberline {7.5}WP5: Testing \& QA}{15}{subsection.0.7.5}%
+\contentsline {subsection}{\numberline {7.6}WP6: Deployment}{15}{subsection.0.7.6}%
+\contentsline {subsection}{\numberline {7.7}Use Case Model (\textit {min 3000 characters})}{15}{subsection.0.7.7}%
+\contentsline {subsection}{\numberline {7.8}Object Model (\textit {min 3000 characters})}{16}{subsection.0.7.8}%
+\contentsline {section}{\numberline {8}Choose Interdisciplinary Domain of Study}{21}{section.0.8}%
