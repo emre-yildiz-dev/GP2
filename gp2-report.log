@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  14 APR 2024 13:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  14 APR 2024 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -327,38 +327,41 @@ Overfull \hbox (6.2565pt too wide) in paragraph at lines 130--131
 tem that re-quires a high-throughput
  []
 
-[7] [8] (./gp2-report.aux)
+
+Underfull \hbox (badness 1389) in paragraph at lines 153--153
+[]\OT1/cmr/m/n/12 Integration is-sues, per-for-mance
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 157--157
+[]\OT1/cmr/m/n/12 Staging en-vi-ron-ment tests, roll-back
+ []
+
+[7] [8] [9] (./gp2-report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `gp2-report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `gp2-report.out':
-(rerunfilecheck)             Before: 761687295E40B4CB02057C845EE659B4;4155
-(rerunfilecheck)             After:  3CA5AC73C1F3C335FDFC42C517D2246C;4160.
+Package rerunfilecheck Info: File `gp2-report.out' has not changed.
+(rerunfilecheck)             Checksum: 3CA5AC73C1F3C335FDFC42C517D2246C;4160.
  ) 
 Here is how much of TeX's memory you used:
- 8807 strings out of 474116
- 140595 string characters out of 5743682
- 1935187 words of memory out of 5000000
- 31073 multiletter control sequences out of 15000+600000
+ 8813 strings out of 474116
+ 140698 string characters out of 5743682
+ 1938187 words of memory out of 5000000
+ 31077 multiletter control sequences out of 15000+600000
  564908 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,6n,93p,756b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,93p,756b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on gp2-report.pdf (10 pages, 96984 bytes).
+Output written on gp2-report.pdf (11 pages, 97330 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

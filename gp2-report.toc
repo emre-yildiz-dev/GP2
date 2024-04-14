@@ -7,7 +7,7 @@
 \contentsline {section}{Standards to be Used (\textit {min 1000 characters})}{6}{section*.8}%
 \contentsline {section}{Approaches, Techniques, and Technologies to be used (\textit {min 6000 characters})}{6}{section*.9}%
 \contentsline {section}{Risk Management}{7}{section*.10}%
-\contentsline {section}{Project Schedule and Task Sharing}{7}{section*.11}%
+\contentsline {section}{Project Schedule and Task Sharing}{8}{section*.11}%
 \contentsline {section}{System Requirements Analysis}{8}{section*.12}%
 \contentsline {subsection}{Use Case Model (\textit {min 3000 characters})}{8}{subsection*.13}%
 \contentsline {subsection}{Object Model (\textit {min 3000 characters})}{8}{subsection*.14}%
