@@ -1,0 +1,90 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{lipsum} % This package generates filler text. Remove it in your actual document.
+\usepackage[hidelinks]{hyperref}
+\renewcommand{\thesection}{\arabic{section}}
+
+% Set the page margins.
+\geometry{a4paper, margin=1in}
+
+% Set the section title spacing and format.
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}
+  {0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+% Define custom commands for common elements.
+\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\characters}[1]{(\textit{min #1 characters})}
+
+% Title Page
+\title{EK: Rapor Format}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% Abstract
+\begin{abstract}
+\lipsum[1] % Replace this with your abstract text.
+\end{abstract}
+
+\textbf{Key Words:} % Add your keywords here
+
+% Add table of contents
+\tableofcontents
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\setcounter{secnumdepth}{0} % sections are level 1
+
+\newpage
+
+% Introduction
+\section{Introduction \characters{5000}}
+\lipsum[2-4] % Replace this with your introduction text.
+
+% Realistic Constraints and Conditions
+\section{Realistic Constraints and Conditions}
+
+\subsection{Sustainable Development Goal \characters{1000}}
+\lipsum[5] % Discuss the relationship between your project topic and the chosen sustainable development goal.
+
+\subsection{Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering \characters{1000}}
+\lipsum[6] % Discuss the impact of your project on health, environment and safety in engineering.
+
+\subsection{Legal Consequences \characters{1000}}
+\lipsum[7] % Discuss the legal consequences of your project.
+
+\section{Literature Analysis \characters{8000}}
+\lipsum[8] % Analyze the literature related to your project topic.
+
+\section{Standarts to be Used  \characters{1000}}
+\lipsum[9] % Discuss the standards that will be used in your project.
+
+\section{Approaches Techniques, and Technologies to be used \characters{6000}}
+\lipsum[10] % Discuss the approaches, techniques, and technologies that will be used in your project.
+
+\section{Risk Management}
+\lipsum[15]
+\section{Project Schedule and Task Sharing}
+\lipsum[16]
+
+\section{System Requirements Analysis}
+
+\subsection{Use Case Model \characters{3000}}
+\lipsum[11]
+
+\subsection{Object Model \characters{3000}}
+\lipsum[12]
+
+\section{References}
+\lipsum[13]
+
+\section{Choose Interdisciplinary Domain of Study}
+\lipsum[14]
+
+\end{document}
