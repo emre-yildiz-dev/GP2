@@ -1,15 +1,15 @@
 \contentsline {section}{Introduction (\textit {min 5000 characters})}{3}{section*.2}%
 \contentsline {section}{Realistic Constraints and Conditions}{3}{section*.3}%
 \contentsline {subsection}{Sustainable Development Goal (\textit {min 1000 characters})}{3}{subsection*.4}%
-\contentsline {subsection}{Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering (\textit {min 1000 characters})}{3}{subsection*.5}%
+\contentsline {subsection}{Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering (\textit {min 1000 characters})}{4}{subsection*.5}%
 \contentsline {subsection}{Legal Consequences (\textit {min 1000 characters})}{4}{subsection*.6}%
-\contentsline {section}{Literature Analysis (\textit {min 8000 characters})}{4}{section*.7}%
-\contentsline {section}{Standarts to be Used (\textit {min 1000 characters})}{4}{section*.8}%
-\contentsline {section}{Approaches Techniques, and Technologies to be used (\textit {min 6000 characters})}{4}{section*.9}%
-\contentsline {section}{Risk Management}{5}{section*.10}%
-\contentsline {section}{Project Schedule and Task Sharing}{5}{section*.11}%
-\contentsline {section}{System Requirements Analysis}{5}{section*.12}%
-\contentsline {subsection}{Use Case Model (\textit {min 3000 characters})}{5}{subsection*.13}%
-\contentsline {subsection}{Object Model (\textit {min 3000 characters})}{5}{subsection*.14}%
-\contentsline {section}{References}{6}{section*.15}%
-\contentsline {section}{Choose Interdisciplinary Domain of Study}{6}{section*.16}%
+\contentsline {section}{Literature Analysis (\textit {min 8000 characters})}{5}{section*.7}%
+\contentsline {section}{Standards to be Used (\textit {min 1000 characters})}{6}{section*.8}%
+\contentsline {section}{Approaches, Techniques, and Technologies to be used (\textit {min 6000 characters})}{6}{section*.9}%
+\contentsline {section}{Risk Management}{7}{section*.10}%
+\contentsline {section}{Project Schedule and Task Sharing}{7}{section*.11}%
+\contentsline {section}{System Requirements Analysis}{8}{section*.12}%
+\contentsline {subsection}{Use Case Model (\textit {min 3000 characters})}{8}{subsection*.13}%
+\contentsline {subsection}{Object Model (\textit {min 3000 characters})}{8}{subsection*.14}%
+\contentsline {section}{References}{8}{section*.15}%
+\contentsline {section}{Choose Interdisciplinary Domain of Study}{8}{section*.16}%
