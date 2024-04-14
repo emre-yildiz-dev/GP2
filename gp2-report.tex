@@ -1,5 +1,6 @@
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{lipsum} % This package generates filler text. Remove it in your actual document.
@@ -276,6 +277,14 @@ The Object Model for the ``Crypto Data Analysis and Education Platform'' articul
 Classes such as \texttt{User}, \texttt{Content}, \texttt{Portfolio}, and \texttt{MarketData} are designed with encapsulation to maintain the integrity of the data and provide the necessary functionalities. Each class includes methods for the creation, manipulation, and presentation of its data, ensuring that the system's operations align with user actions and intentions.
 
 This Object Model serves as the fundamental design for the platform's backend structure, ensuring data consistency and facilitating the platform's core functionality. It is the architectural framework upon which dynamic processes and user interactions are built, providing a systematic approach to developing the platform's software components.
+\clearpage % Ensures the image appears on a new page
+\begin{figure}[p] % 'p' places the figure on a page containing only floats, such as tables and figures.
+\centering % Centers the image
+\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{ERD.png} % Adjusts the size to fit the page
+\caption{Entity Relationship Diagram of the System} % Optional: add a caption
+\label{fig:er_diagram} % Optional: label for referencing the figure
+\end{figure}
+\clearpage % Ensures any following content appears on a new page
 
 
 \begin{thebibliography}{9}
