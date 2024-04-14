@@ -1,27 +1,26 @@
-\contentsline {section}{Introduction (\textit {min 5000 characters})}{3}{section*.2}%
-\contentsline {section}{Realistic Constraints and Conditions}{3}{section*.3}%
-\contentsline {subsection}{Sustainable Development Goal (\textit {min 1000 characters})}{3}{subsection*.4}%
-\contentsline {subsection}{Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering (\textit {min 1000 characters})}{4}{subsection*.5}%
-\contentsline {subsection}{Legal Consequences (\textit {min 1000 characters})}{4}{subsection*.6}%
-\contentsline {section}{Literature Analysis (\textit {min 8000 characters})}{5}{section*.7}%
-\contentsline {section}{Standards to be Used (\textit {min 1000 characters})}{6}{section*.8}%
-\contentsline {section}{Approaches, Techniques, and Technologies to be used (\textit {min 6000 characters})}{6}{section*.9}%
-\contentsline {section}{Risk Management}{7}{section*.10}%
-\contentsline {subsection}{WP1: Requirements and Technical Debt}{8}{subsection*.11}%
-\contentsline {subsection}{WP2: Integration and Performance}{8}{subsection*.12}%
-\contentsline {subsection}{WP3: Usability and Browser Compatibility}{8}{subsection*.13}%
-\contentsline {subsection}{WP4: Data Migration and Scalability}{8}{subsection*.14}%
-\contentsline {subsection}{WP5: Test Coverage and Missed Bugs}{8}{subsection*.15}%
-\contentsline {subsection}{WP6: Downtime and Deployment Failures}{8}{subsection*.16}%
-\contentsline {section}{Project Schedule and Task Sharing}{9}{section*.17}%
-\contentsline {subsection}{WP1: System Architecture}{9}{subsection*.18}%
-\contentsline {subsection}{WP2: Backend Development}{9}{subsection*.19}%
-\contentsline {subsection}{WP3: Frontend Development}{9}{subsection*.20}%
-\contentsline {subsection}{WP4: Database Integration}{9}{subsection*.21}%
-\contentsline {subsection}{WP5: Testing \& QA}{9}{subsection*.22}%
-\contentsline {subsection}{WP6: Deployment}{9}{subsection*.23}%
-\contentsline {section}{System Requirements Analysis}{10}{section*.24}%
-\contentsline {subsection}{Use Case Model (\textit {min 3000 characters})}{10}{subsection*.25}%
-\contentsline {subsection}{Object Model (\textit {min 3000 characters})}{10}{subsection*.26}%
-\contentsline {section}{References}{10}{section*.27}%
-\contentsline {section}{Choose Interdisciplinary Domain of Study}{11}{section*.28}%
+\contentsline {section}{\numberline {1}Introduction (\textit {min 5000 characters})}{3}{section.0.1}%
+\contentsline {section}{\numberline {2}Realistic Constraints and Conditions}{3}{section.0.2}%
+\contentsline {subsection}{\numberline {2.1}Sustainable Development Goal (\textit {min 1000 characters})}{3}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {2.2}Effects on Health, Environment and the Problems of the Age Reflected in the Field of Engineering (\textit {min 1000 characters})}{4}{subsection.0.2.2}%
+\contentsline {subsection}{\numberline {2.3}Legal Consequences (\textit {min 1000 characters})}{4}{subsection.0.2.3}%
+\contentsline {section}{\numberline {3}Literature Analysis (\textit {min 8000 characters})}{5}{section.0.3}%
+\contentsline {section}{\numberline {4}Standards to be Used (\textit {min 1000 characters})}{6}{section.0.4}%
+\contentsline {section}{\numberline {5}Approaches, Techniques, and Technologies to be used (\textit {min 6000 characters})}{6}{section.0.5}%
+\contentsline {section}{\numberline {6}Risk Management}{7}{section.0.6}%
+\contentsline {subsection}{\numberline {6.1}WP1: Requirements and Technical Debt}{8}{subsection.0.6.1}%
+\contentsline {subsection}{\numberline {6.2}WP2: Integration and Performance}{8}{subsection.0.6.2}%
+\contentsline {subsection}{\numberline {6.3}WP3: Usability and Browser Compatibility}{8}{subsection.0.6.3}%
+\contentsline {subsection}{\numberline {6.4}WP4: Data Migration and Scalability}{8}{subsection.0.6.4}%
+\contentsline {subsection}{\numberline {6.5}WP5: Test Coverage and Missed Bugs}{8}{subsection.0.6.5}%
+\contentsline {subsection}{\numberline {6.6}WP6: Downtime and Deployment Failures}{8}{subsection.0.6.6}%
+\contentsline {section}{\numberline {7}Project Schedule and Task Sharing}{9}{section.0.7}%
+\contentsline {subsection}{\numberline {7.1}WP1: System Architecture}{9}{subsection.0.7.1}%
+\contentsline {subsection}{\numberline {7.2}WP2: Backend Development}{9}{subsection.0.7.2}%
+\contentsline {subsection}{\numberline {7.3}WP3: Frontend Development}{9}{subsection.0.7.3}%
+\contentsline {subsection}{\numberline {7.4}WP4: Database Integration}{9}{subsection.0.7.4}%
+\contentsline {subsection}{\numberline {7.5}WP5: Testing \& QA}{9}{subsection.0.7.5}%
+\contentsline {subsection}{\numberline {7.6}WP6: Deployment}{9}{subsection.0.7.6}%
+\contentsline {section}{\numberline {8}System Requirements Analysis}{10}{section.0.8}%
+\contentsline {subsection}{\numberline {8.1}Use Case Model (\textit {min 3000 characters})}{10}{subsection.0.8.1}%
+\contentsline {subsection}{\numberline {8.2}Object Model (\textit {min 3000 characters})}{11}{subsection.0.8.2}%
+\contentsline {section}{\numberline {9}Choose Interdisciplinary Domain of Study}{13}{section.0.9}%
