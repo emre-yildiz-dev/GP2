@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  14 APR 2024 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  14 APR 2024 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,13 +444,13 @@ Package rerunfilecheck Info: File `gp2-report.out' has not changed.
 (rerunfilecheck)             Checksum: 549F71FB6C6D21849A1EB6DB017986A7;7372.
  ) 
 Here is how much of TeX's memory you used:
- 9293 strings out of 474116
- 144037 string characters out of 5743682
- 1939187 words of memory out of 5000000
- 31501 multiletter control sequences out of 15000+600000
+ 9296 strings out of 474116
+ 144061 string characters out of 5743682
+ 1940187 words of memory out of 5000000
+ 31504 multiletter control sequences out of 15000+600000
  565414 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1227b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,1227b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -459,7 +459,7 @@ b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on gp2-report.pdf (18 pages, 625490 bytes).
+Output written on gp2-report.pdf (18 pages, 625721 bytes).
 PDF statistics:
  316 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams
