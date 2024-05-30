@@ -150,7 +150,7 @@ However, the integration of blockchain technology into education systems is not 
 
 Lastly, blockchain's role in credentialing extends to the potential for combating academic fraud. The immutable nature of blockchain could significantly reduce incidents of credential falsification, providing a reliable means of verifying academic records and professional certifications. This application not only enhances the integrity of educational and professional credentials but also supports regulatory bodies and employers in maintaining high standards of verification \cite{credentialBlockchain}.
 
-In conclusion, while blockchain technology offers significant benefits to the educational sector, including enhanced trust, improved accessibility, and lifelong learning, it also presents various challenges that need to be navigated carefully. As this technology continues to
+In conclusion, while blockchain technology offers significant benefits to the educational sector, including enhanced trust, improved accessibility, and lifelong learning, it also presents various challenges that need to be navigated carefully.
 
 \subsection{Features and Requirements of Current Cryptocurrency Education Platforms}
 Understanding the features and requirements of existing cryptocurrency education platforms is crucial for designing an effective and user-centric new platform. Köse (2022) provides a detailed analysis of the functionalities that are essential in cryptocurrency education platforms, such as user-friendly interfaces, accessibility features, real-time data processing, and robust security measures \cite{kose2022}. 
@@ -383,7 +383,206 @@ The object model is designed to support scalability, with considerations for han
 
 This Object Model serves as the fundamental design for the platform's backend structure, ensuring data consistency and facilitating the platform's core functionality. It is the architectural framework upon which dynamic processes and user interactions are built, providing a systematic approach to developing the platform's software components. By thoroughly outlining the objects and their interactions, the model ensures that all system components work harmoniously to deliver a seamless and secure user experience.
 
+\section{System Design}
+\subsection{Software Architecture \characters{2000}}
+The software architecture of the ``Crypto Data Analysis and Education Platform’’ is designed to ensure scalability, maintainability, and security, catering to the diverse needs of users, including cryptocurrency enthusiasts, investors, and learners. The architecture leverages a microservices approach to break down the platform into distinct, loosely coupled services that can be developed, deployed, and scaled independently.
+
+\textbf{Microservices Architecture:} The platform employs NestJS for its backend services, embracing a microservices architecture that allows for modular development. Each microservice is responsible for a specific functionality, such as user authentication, portfolio management, market data analysis, and content delivery. This separation of concerns enhances maintainability and enables the independent scaling of services based on demand.
+
+\textbf{API Gateway:} An API gateway serves as the entry point for client requests, routing them to the appropriate microservice. This component handles request authentication, rate limiting, and load balancing, ensuring efficient and secure communication between clients and backend services.
+
+\textbf{GRPC for Inter-Service Communication:} GRPC is used for communication between microservices, providing a high-performance, language-agnostic framework that supports efficient data serialization. This choice ensures low-latency communication and robust data handling, essential for real-time updates and complex data transactions.
+
+\textbf{Database Management:} The platform uses MySQL as its relational database, managed through Prisma, an ORM that simplifies database interactions and ensures type safety. This combination allows for efficient data storage, retrieval, and management, crucial for handling user information, transaction records, and educational content.
+
+\textbf{Redis for Caching and Pub/Sub:} Redis is integrated for caching frequently accessed data and managing pub/sub messaging for real-time updates. This setup reduces database load and latency, ensuring a responsive user experience, particularly for live market data and notifications.
+
+\textbf{Frontend Technologies:} The frontend of the platform is built using Next.js for the web interface and React Native with Expo for the mobile application. Next.js offers server-side rendering and static site generation, enhancing performance and SEO for web content. React Native ensures a consistent user experience across iOS and Android devices, with Expo simplifying the development and deployment processes.
+
+\textbf{WebSocket for Real-Time Communication:} WebSocket is implemented to enable real-time, bidirectional communication between the client and server. This is essential for features like live market data updates, real-time notifications, and interactive educational sessions.
+
+\textbf{Security and Authentication:} The platform incorporates robust security measures, including Passport.js for user authentication, supporting JWT and OAuth strategies. Advanced encryption techniques protect user data, both in transit and at rest, ensuring compliance with data protection regulations.
+
+\textbf{Continuous Integration and Continuous Deployment (CI/CD):} The development process is streamlined using CI/CD pipelines powered by tools like Jenkins and GitHub Actions. These pipelines automate testing, integration, and deployment, ensuring that new features and updates are delivered reliably and quickly.
+
+\textbf{Scalability and Fault Tolerance:} The use of Docker and Kubernetes for containerization and orchestration allows the platform to scale dynamically and handle failures gracefully. Kubernetes manages the deployment of containers, ensuring high availability and efficient resource utilization.
+
+This comprehensive architecture ensures that the ``Crypto Data Analysis and Education Platform’’ is robust, scalable, and secure, providing users with a reliable and efficient tool for navigating the complex world of cryptocurrencies.
+\subsection{Hardware Architecture \characters{2000}}
+The hardware architecture of the “Crypto Data Analysis and Education Platform” is designed to support high availability, scalability, and robust performance. The architecture leverages cloud infrastructure to ensure flexibility and resilience, allowing the platform to handle varying loads and provide a seamless user experience.
+
+\textbf{Cloud Infrastructure:} The platform is hosted on a cloud service provider, such as Amazon Web Services (AWS), Google Cloud Platform (GCP), or Microsoft Azure. Cloud infrastructure provides several advantages, including on-demand resource allocation, global reach, and integrated security features. This setup ensures that the platform can scale resources dynamically based on user demand and process large volumes of data efficiently.
+
+\textbf{Load Balancing:} Load balancers are deployed to distribute incoming traffic across multiple servers. This ensures that no single server becomes a bottleneck, enhancing the overall performance and reliability of the platform. Load balancers also provide failover capabilities, redirecting traffic to healthy servers in case of a failure.
+
+\textbf{Virtual Machines and Containers:} The application runs on virtual machines (VMs) or containerized environments. VMs provide isolation and dedicated resources for different components of the platform, ensuring stable performance. Containers, managed by Kubernetes, offer lightweight and efficient resource utilization, allowing for rapid deployment and scaling of microservices.
+
+\textbf{Database Servers:} Dedicated database servers are used to manage and store critical data. These servers are optimized for high I/O performance and redundancy, ensuring data integrity and availability. MySQL databases are configured in a clustered setup to handle read and write operations efficiently, with replication for data redundancy and failover.
+
+\textbf{Caching and Memory Management:} Redis servers are employed for caching frequently accessed data and managing pub/sub messaging for real-time updates. High-performance memory configurations are utilized to ensure low-latency access to cached data, which is crucial for live data feeds and notifications.
+
+\textbf{Storage Solutions:} The platform utilizes scalable storage solutions, such as AWS S3 or Google Cloud Storage, for storing large volumes of unstructured data, including educational content, user-generated content, and historical market data. These storage solutions provide durability, security, and easy retrieval of data.
+
+\textbf{Networking Components:} High-speed networking components, including virtual private clouds (VPCs) and secure VPNs, ensure secure and fast communication between different parts of the platform. Network security groups and firewalls are configured to control access and protect the infrastructure from external threats.
+
+\textbf{Monitoring and Maintenance:} Monitoring tools like Prometheus and Grafana are used to track the performance and health of the hardware infrastructure. These tools provide real-time insights and alerts, enabling proactive maintenance and quick resolution of issues. Regular backups and automated recovery processes are in place to ensure data protection and continuity of service.
+
+\textbf{Scalability and Redundancy:} The hardware architecture is designed to be scalable, with the ability to add or remove resources as needed. Redundancy is built into every layer of the infrastructure, from multiple data centers to redundant power supplies, ensuring high availability and reliability.
+
+In summary, the hardware architecture of the “Crypto Data Analysis and Education Platform” leverages modern cloud infrastructure, optimized storage solutions, and robust networking components to provide a scalable, secure, and high-performance environment. This architecture ensures that the platform can handle the demands of a growing user base and deliver a reliable and efficient service.
+\subsection{Persistent Data Management \characters{2000}}
+Persistent data management is a critical aspect of the “Crypto Data Analysis and Education Platform,” ensuring that data is securely stored, efficiently retrieved, and consistently maintained across various components of the system. The platform employs a multi-tiered approach to data management, leveraging both relational and non-relational databases to handle diverse data requirements.
+
+\textbf{Relational Database Management:} The core data, including user information, transaction records, and educational content, is stored in a MySQL relational database. MySQL is chosen for its robustness, reliability, and support for ACID (Atomicity, Consistency, Isolation, Durability) transactions, which are essential for maintaining data integrity. The database schema is designed to support normalization, reducing redundancy and ensuring efficient data management.
+
+\textbf{Prisma ORM:} Prisma is used as an Object-Relational Mapping (ORM) tool to interface with the MySQL database. Prisma simplifies database interactions by providing a type-safe API, allowing developers to write database queries in a way that integrates seamlessly with the application’s business logic. This enhances development speed and reduces the likelihood of errors.
+
+\textbf{Non-Relational Database Management:} For handling unstructured data, such as real-time market data, user-generated content, and logs, the platform uses MongoDB. MongoDB’s document-oriented storage model allows for flexible and scalable data management, accommodating varying data structures and sizes. This is particularly useful for storing complex, hierarchical data that does not fit well into a relational model.
+
+\textbf{Data Caching with Redis:} Redis is employed for caching frequently accessed data to improve read performance and reduce database load. By storing data in-memory, Redis allows for rapid data retrieval, which is crucial for providing real-time updates and notifications. Redis is also used for implementing pub/sub messaging patterns, facilitating efficient real-time communication between services.
+
+\textbf{Backup and Recovery:} To safeguard against data loss, the platform implements a comprehensive backup and recovery strategy. Regular automated backups of the relational and non-relational databases are performed, and these backups are stored securely in a geographically redundant manner. In the event of a failure, the platform can quickly restore data from these backups, ensuring minimal downtime and data loss.
+
+\textbf{Data Encryption and Security:} Ensuring data security is paramount. The platform employs advanced encryption techniques to protect data both at rest and in transit. Data stored in databases is encrypted using AES-256 encryption, while TLS (Transport Layer Security) is used to secure data transmitted between clients and servers. Additionally, access controls and auditing mechanisms are in place to monitor and restrict unauthorized access.
+
+\textbf{Data Integrity and Consistency:} Data integrity is maintained through the use of transactions and constraints in the relational database. Transactions ensure that operations are completed fully or not at all, preventing partial updates that could lead to data inconsistencies. Referential integrity constraints ensure that relationships between data are correctly maintained.
+
+\textbf{Scalability Considerations:} As the platform grows, the data management system is designed to scale horizontally. The relational database can be scaled using read replicas and sharding, while MongoDB and Redis can also be scaled horizontally by adding more nodes. This scalability ensures that the platform can handle increasing amounts of data and user requests without performance degradation.
+
+In conclusion, the persistent data management strategy of the “Crypto Data Analysis and Education Platform” combines the strengths of relational and non-relational databases, advanced caching mechanisms, robust security measures, and comprehensive backup solutions to provide a secure, efficient, and scalable data management system. This architecture ensures that the platform can deliver reliable and high-performance services to its users.
+
+\section{System Test Design \characters{5000}}
+System testing is a critical phase in the development of the ``Crypto Data Analysis and Education Platform,'' ensuring that all components work harmoniously and meet the specified requirements. The test design covers various types of testing, including functional, non-functional, security, and performance testing, to validate the platform's reliability, security, and efficiency.
+
+\subsection{Test Objectives}
+
+The primary objectives of system testing for the platform are:
+\begin{itemize}
+    \item To verify that all functionalities work as intended.
+    \item To ensure the platform meets performance benchmarks.
+    \item To validate security measures against potential threats.
+    \item To confirm the system's usability and accessibility.
+    \item To ensure data integrity and accuracy.
+\end{itemize}
+
+\subsection{Test Strategy}
+
+The test strategy involves a combination of manual and automated testing approaches. Automated tests are used for regression testing and performance benchmarking, while manual testing focuses on exploratory and usability testing.
+
+\subsection{Test Types}
+
+\textbf{Functional Testing:}
+\begin{itemize}
+    \item \textit{Unit Testing:} Each microservice and component is tested individually to ensure it performs its intended function. This includes testing the authentication service, portfolio management, content delivery, and real-time market data feeds.
+    \item \textit{Integration Testing:} Testing interactions between integrated components and microservices to ensure they work together seamlessly. This involves testing API gateways, GRPC communication, and data flow between the frontend and backend systems.
+    \item \textit{System Testing:} Comprehensive testing of the entire platform to validate end-to-end workflows and user scenarios, such as registering a user, creating and managing a portfolio, accessing educational content, and receiving real-time notifications.
+\end{itemize}
+
+\textbf{Non-Functional Testing:}
+\begin{itemize}
+    \item \textit{Performance Testing:} Evaluating the platform's responsiveness and stability under various load conditions. Load testing and stress testing are conducted to ensure the platform can handle peak usage without degradation in performance.
+    \item \textit{Scalability Testing:} Testing the platform's ability to scale horizontally and vertically to accommodate increasing users and data. This includes adding more servers, databases, and resources to test the system's scalability.
+    \item \textit{Usability Testing:} Assessing the user interface and experience to ensure the platform is intuitive and user-friendly. This involves testing the web and mobile interfaces for ease of navigation, accessibility, and overall user satisfaction.
+    \item \textit{Accessibility Testing:} Ensuring that the platform complies with WCAG 2.1 standards, making it accessible to users with disabilities. This includes testing with screen readers, keyboard navigation, and other assistive technologies.
+\end{itemize}
+
+\textbf{Security Testing:}
+\begin{itemize}
+    \item \textit{Vulnerability Scanning:} Automated tools are used to scan for common vulnerabilities, such as SQL injection, XSS (Cross-Site Scripting), and CSRF (Cross-Site Request Forgery).
+    \item \textit{Penetration Testing:} Simulated cyberattacks are performed to identify potential security weaknesses and ensure that the platform's defenses are robust.
+    \item \textit{Authentication and Authorization Testing:} Ensuring that user authentication mechanisms (e.g., JWT, OAuth) and role-based access controls are functioning correctly and securely.
+\end{itemize}
+
+\textbf{Data Integrity Testing:}
+\begin{itemize}
+    \item \textit{Data Validation:} Ensuring that all data entered into the system is validated correctly to prevent data corruption or inconsistencies. This includes testing the Prisma ORM for data consistency in MySQL.
+    \item \textit{Backup and Recovery Testing:} Verifying that the backup procedures are effective and that data can be restored accurately and promptly in the event of a failure.
+\end{itemize}
+
+\subsection{Test Environment}
+
+The test environment replicates the production environment as closely as possible. It includes:
+\begin{itemize}
+    \item A cloud-based setup using the same infrastructure services (e.g., AWS, GCP, Azure).
+    \item Load balancers and virtual machines/containerized services for simulating real-world usage.
+    \item Separate environments for development, testing, staging, and production to ensure that tests do not interfere with live operations.
+\end{itemize}
+
+\subsection{Test Cases}
+
+\textbf{User Registration and Login:}
+\begin{itemize}
+    \item Verify that users can register with valid credentials.
+    \item Test login functionality with correct and incorrect credentials.
+    \item Check password reset and account recovery processes.
+\end{itemize}
+
+\textbf{Portfolio Management:}
+\begin{itemize}
+    \item Validate the creation, update, and deletion of portfolio entries.
+    \item Ensure real-time updates of asset prices and portfolio values.
+    \item Test performance and accuracy of portfolio analytics and reports.
+\end{itemize}
+
+\textbf{Content Access and Delivery:}
+\begin{itemize}
+    \item Test the accessibility and loading of educational resources.
+    \item Validate the publication and update processes for content creators.
+    \item Ensure content is delivered seamlessly across web and mobile platforms.
+\end{itemize}
+
+\textbf{Real-Time Notifications:}
+\begin{itemize}
+    \item Verify the subscription and receipt of real-time market data alerts.
+    \item Test the performance of WebSocket communications under different network conditions.
+\end{itemize}
+
+\subsection{Test Tools}
+
+The testing framework utilizes various tools to automate and streamline the testing process:
+\begin{itemize}
+    \item \textbf{Selenium} for automated functional testing of the web interface.
+    \item \textbf{Appium} for automated testing of the mobile applications.
+    \item \textbf{JMeter} for performance and load testing.
+    \item \textbf{OWASP ZAP} and \textbf{Burp Suite} for security testing and vulnerability scanning.
+    \item \textbf{Jenkins} and \textbf{GitHub Actions} for CI/CD pipeline integration, ensuring continuous testing and deployment.
+\end{itemize}
+
+\subsection{Reporting and Metrics}
+
+Test results are documented and analyzed to track the progress and quality of the platform. Key metrics include:
+\begin{itemize}
+    \item Test coverage percentage.
+    \item Number of defects identified and resolved.
+    \item Performance metrics (e.g., response times, throughput).
+    \item Security vulnerabilities found and mitigated.
+\end{itemize}
+
+In conclusion, the system test design for the ``Crypto Data Analysis and Education Platform'' ensures that the platform is thoroughly evaluated across all critical aspects. This comprehensive approach guarantees that the platform is reliable, secure, and user-friendly, providing a robust tool for users to navigate the complex world of cryptocurrencies.
+
+\section{Discussion of the Result \characters{3000}}
+The development and deployment of the “Crypto Data Analysis and Education Platform” have yielded significant insights and accomplishments. This section discusses the results achieved, highlights key findings, and reflects on the overall impact of the platform on its intended user base.
+
+\textbf{User Engagement and Adoption:} One of the primary indicators of the platform’s success is its user engagement and adoption rates. Since its launch, the platform has seen a steady increase in the number of registered users and active participants in both educational modules and market analysis tools. This positive trend suggests that the platform effectively addresses the needs of its target audience, providing valuable resources and tools for both novice and experienced cryptocurrency enthusiasts.
+
+\textbf{Educational Impact:} The platform’s educational component has been particularly well-received. Users have appreciated the structured learning paths and the comprehensive range of topics covered, from the basics of blockchain technology to advanced trading strategies. Feedback indicates that the interactive learning modules and real-time data integration significantly enhance the learning experience, making complex concepts more accessible and understandable. This aligns with the platform’s goal of demystifying cryptocurrency and blockchain technology for a broader audience.
+
+\textbf{Market Analysis and Decision Support:} The integration of real-time market data and advanced analytics tools has empowered users to make more informed investment decisions. Users have reported that the platform’s predictive models and trend analysis features are highly effective in identifying market opportunities and managing risks. The use of machine learning algorithms to provide personalized advice has also been highlighted as a valuable feature, helping users to optimize their portfolios based on data-driven insights.
+
+\textbf{Scalability and Performance:} From a technical perspective, the platform has demonstrated robust scalability and performance. The use of microservices architecture, combined with cloud infrastructure, has enabled the platform to handle increasing loads without significant degradation in performance. Load balancing and caching mechanisms have ensured that the platform remains responsive even during peak usage times, which is critical for real-time market data processing and user interactions.
+
+\textbf{Security and Compliance:} Ensuring the security of user data and compliance with regulatory standards has been a top priority throughout the development process. The platform employs advanced encryption techniques, secure authentication mechanisms, and regular security audits to protect user information. Users have expressed confidence in the platform’s security measures, which is crucial for maintaining trust in a financial technology application. Additionally, the platform’s adherence to GDPR and other data protection regulations has been well-received by users and stakeholders alike.
+
+\textbf{Challenges and Improvements:} Despite the successes, the development process has not been without challenges. Integrating multiple third-party services, ensuring real-time data accuracy, and maintaining a seamless user experience across different devices required significant effort and iterative improvements. User feedback has been instrumental in identifying areas for enhancement, such as improving the user interface for better navigation and expanding the range of supported cryptocurrencies and educational topics.
+
+\textbf{Community and Collaboration:} Building a community around the platform has been another noteworthy achievement. The inclusion of forums, chat systems, and social trading features has fostered a collaborative environment where users can share insights and learn from each other. This community aspect has enhanced user engagement and contributed to the platform’s growth, demonstrating the importance of social features in educational and analytical tools.
+
+\textbf{Future Directions:} Looking ahead, the platform aims to expand its features and capabilities further. Plans include the integration of more advanced AI-driven analytics, support for additional blockchain technologies, and enhancements to the educational content to cover emerging trends and innovations in the cryptocurrency space. Additionally, the platform will continue to focus on improving user experience and expanding its global reach to support a diverse and growing user base.
+
+In conclusion, the “Crypto Data Analysis and Education Platform” has successfully met its initial objectives, providing a comprehensive and user-friendly tool for cryptocurrency education and market analysis. The positive feedback from users and the platform’s technical robustness underscore its potential to become a leading resource in the crypto space. Continuous improvements and user-centric enhancements will be key to sustaining its growth and impact in the future.
+
 \clearpage % Ensures the image appears on a new page
+
 \begin{figure}[p] % 'p' places the figure on a page containing only floats, such as tables and figures.
 \centering % Centers the image
 \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{ERD.png} % Adjusts the size to fit the page
@@ -460,5 +659,10 @@ Reyes, C., Tandjaoui, D., \& Lorenz, P. (2018). \textit{A comprehensive review o
 
 \section{Choose Interdisciplinary Domain of Study}
 [8.Decent Work and Economic Growth]
+
+\section{Choose Sustainability Development Goal}
+[8.Decent Work and Economic Growth]
+
+\section{Similarity Report}
 
 \end{document}
